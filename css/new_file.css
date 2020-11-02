@@ -1,0 +1,27 @@
+
+.a{
+	position: absolute;
+	left: 600px;
+	top: 200px;
+	z-index: -1;
+}
+.b{
+	position: absolute;
+	left: 600px;
+	top: 200px;
+	z-index: 1;
+}
+.c{
+	position: absolute;
+	left: 436px;
+	top: 33px;
+	animation: zhuan 1s linear infinite;
+}
+@keyframes zhuan{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
